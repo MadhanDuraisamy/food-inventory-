@@ -1,0 +1,133 @@
+<html>
+	<head>
+<title>my first project</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="index.css" >
+<style>
+	.main-container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.sub-container{
+		display: flex;
+		flex-direction: column;
+	}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		<img src="foody.png" width="60px"  style=border-radius:30px;>
+		  <a class="navbar-brand" href="#"><h1><font color="blue"><b>FOODY</font></b></h1></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link" href=file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/html.html#><font color="green"><b>HOME</b></font></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#"><font color="green"><b>ORDER DETAILS</b></font></a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  <font color="green"><b>LIST OF PACKAGES</b></font>
+				</a>
+			 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href=file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/vegetables/vegetables.html>VEGETABLES ITEMS</a></li>
+				  <li><a class="dropdown-item" href=file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/fruits/fruits.html>FRUITS ITEMS</a></li>
+				  <li><a class="dropdown-item" href="file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/ice%20cream/ice%20cream.html">ICE CREAMS ITEMS</a></li>
+				  <li><a class="dropdown-item" href="file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/lentils/lentils.html">LENTILS ITEMS</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">MORE</a></li>
+				</ul>
+				</li>
+				<!-- LOGIN PAGE -->
+			<li class="nav-item">
+			<a class="nav-link" href="file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/about.html"><font color="green"><b>ABOUT</b></font></a>
+			</li>
+			</ul>
+			<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+				<button class="btn btn-primary me-md-2" button type="button" class="btn btn-secondary" a href="file:///C:/Users/madhan%20D/OneDrive/Desktop/New%20folder/loginpage.html">LOGIN</a></button>
+			  </div>
+		  </div>
+		</div>
+	</nav>
+	<!-- CAROUSEL -->
+	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<!-- CAROUSEL IMAGE ATTACHED -->
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="10000">
+			<img src="imaho.jpg" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h1><b><font color="aqua">FOOD INVENTORY MANAGEMENTRY</font></h1></b>
+			  <p></p><font color="white">online purchase with delievery</p></font>
+			</div>
+		  </div>
+		  <div class="carousel-item" data-bs-interval="2000">
+			<img src="C:\Users\madhan D\OneDrive\Desktop\New folder\food1.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h1><font color="aqua">WHAT DO YOU WANT?</font></h1>
+			  <p><font color="white">if you have purchase in product...</font></p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="C:\Users\madhan D\OneDrive\Desktop\New folder\biriyani.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+			  <h1><font color="aqua">PRODUCT OF ABOUT US...</font></h1>
+			  <p><font color="white">There is primary purchasing of product due to delivering a items</font></p>
+			</div>
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
+	  <div class="main-container">
+		<div class="sub-container1">
+			<img src="C:\Users\madhan D\OneDrive\Desktop\New folder\foody  logo (1).jpg" style="width:min-content">
+			<h3></h3><br>
+			<h1></h1>
+			<h1></h1>
+		</div>
+		<div class="sub-container1">
+			<h3>Contact Info</h1>
+			<p>26/28C MGR market,<br>
+				ponnambalam street,Ashok nagar,<br>
+				chennai-600028<br></p>
+			<h3>Phone No</h3>
+			<p>+91-9790661964<br>
+				+91-8760363765<br>
+			</p>
+			<h3>Email</h3>
+			<p>Support<br>
+			madhan123@gmail.com</p>
+		</div>
+		<div class="sub-container1">
+			<h1>GET STARTED</h1>
+		</div>
+		<div class="sub-container1">
+			<h1>GET STARTED</h1>
+		</div>
+		</div><hr color="black" hr >
+
+
+
+
+
+</body>
+</html>
